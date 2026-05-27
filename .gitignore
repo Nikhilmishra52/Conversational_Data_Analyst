@@ -1,0 +1,60 @@
+.env
+.env.*
+!.env.example
+!.env.example.*
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+secrets.*
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.benchmarks/
+build/
+dist/
+*.egg-info/
+
+# Data and temp outputs
+*.log
+*.tmp
+*.cache
+*.sqlite
+*.db
+*.parquet
+*.csv
+*.tsv
+*.feather
+.ipynb_checkpoints/
+
+# IDE and OS junk
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Frontend/node (future-proof)
+node_modules/
+.npm/
+.yarn/
+.turbo/
+.next/
+coverage/
+
+# LangChain / LangGraph runs
+runs/
+checkpoints/
+artifacts/

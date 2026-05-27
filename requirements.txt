@@ -1,0 +1,6 @@
+langchain
+langgraph
+langchain_openai
+fastapi
+langchain_core
+langchain_community
